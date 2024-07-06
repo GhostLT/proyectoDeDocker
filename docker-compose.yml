@@ -1,0 +1,61 @@
+version: '3.8'
+ 
+services:
+  db:
+    image: mysql:5.7
+    container_name: mysql-container
+    restart: always
+    ports: 
+            - "3306:3306"
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: my_database
+      MYSQL_USER: my_user
+      MYSQL_PASSWORD: my_password
+    volumes:
+      - ./dump:/docker-entrypoint-initdb.d
+      - ./conf:/etc/mysql/conf.d
+      - mysql_data:/var/lib/mysql
+    networks:
+      - netdocker
+ 
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: root_password
+    networks:
+      - netdocker
+ 
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-container
+    restart: always
+    ports:
+      - "8000:80"
+    volumes:
+    #- ./nginx.conf:/etc/nginx/nginx.conf:ro  # Monta nginx.conf como un archivo
+      - php_app:/var/www/html
+    networks:
+      - netdocker
+ 
+  php:
+    image: php:8.0-fpm
+    restart: always
+    volumes:
+      - php_app:/var/www/html
+    networks:
+      - netdocker
+ 
+volumes:
+  mysql_data:
+  php_app:
+ 
+networks:
+  netdocker:
+    driver: bridge
+ 
