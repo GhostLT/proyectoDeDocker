@@ -39,6 +39,8 @@ services:
       - "8000:80"
     volumes:
     #- ./nginx.conf:/etc/nginx/nginx.conf:ro  # Monta nginx.conf como un archivo
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d
       - php_app:/var/www/html
     networks:
       - netdocker
