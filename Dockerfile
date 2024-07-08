@@ -1,3 +1,19 @@
+# usa la imagen oficial de nginx
+FROM nginx:alpine
+ADD nginx.conf /etc/nginx/nginx.conf
+ADD conf.d/default.conf /etc/nginx/conf.d/default.conf
+
+# Instalar bash y nano
+RUN apt-get update \
+    && apt-get install -y bash nano \
+    && rm -rf /var/lib/apt/lists/*
+
+# Instalar bash y nano en MySQL
+FROM mysql:5.7
+RUN apt-get update \
+    && apt-get install -y bash nano \
+    && rm -rf /var/lib/apt/lists/*
+
 # Usa la imagen base oficial PHP 8.0 FPM 
 FROM php:8.0-fpm
  
