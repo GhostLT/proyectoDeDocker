@@ -381,3 +381,1867 @@
 2024/07/07 23:25:26 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
 2024/07/07 23:25:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
 2024/07/07 23:25:26 [notice] 1#1: start worker processes
+2024/07/07 23:25:26 [notice] 1#1: start worker process 31
+2024/07/07 23:25:26 [notice] 1#1: start worker process 32
+2024/07/07 23:25:26 [notice] 1#1: start worker process 33
+2024/07/07 23:25:26 [notice] 1#1: start worker process 34
+2024/07/08 00:52:20 [emerg] 59#59: "server" directive is not allowed here in /etc/nginx/nginx.conf:34
+2024/07/08 00:53:47 [emerg] 62#62: unexpected "}" in /etc/nginx/nginx.conf:35
+2024/07/08 00:53:59 [notice] 64#64: signal process started
+2024/07/08 00:53:59 [notice] 1#1: signal 1 (SIGHUP) received from 64, reconfiguring
+2024/07/08 00:53:59 [notice] 1#1: reconfiguring
+2024/07/08 00:53:59 [notice] 1#1: using the "epoll" event method
+2024/07/08 00:53:59 [notice] 1#1: start worker processes
+2024/07/08 00:53:59 [notice] 1#1: start worker process 65
+2024/07/08 00:53:59 [notice] 1#1: start worker process 66
+2024/07/08 00:53:59 [notice] 1#1: start worker process 67
+2024/07/08 00:53:59 [notice] 1#1: start worker process 68
+2024/07/08 00:53:59 [notice] 31#31: gracefully shutting down
+2024/07/08 00:53:59 [notice] 32#32: gracefully shutting down
+2024/07/08 00:53:59 [notice] 33#33: gracefully shutting down
+2024/07/08 00:53:59 [notice] 34#34: gracefully shutting down
+2024/07/08 00:53:59 [notice] 32#32: exiting
+2024/07/08 00:53:59 [notice] 31#31: exiting
+2024/07/08 00:53:59 [notice] 33#33: exiting
+2024/07/08 00:53:59 [notice] 34#34: exiting
+2024/07/08 00:53:59 [notice] 32#32: exit
+2024/07/08 00:53:59 [notice] 31#31: exit
+2024/07/08 00:53:59 [notice] 33#33: exit
+2024/07/08 00:53:59 [notice] 34#34: exit
+2024/07/08 00:53:59 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/08 00:53:59 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 00:53:59 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 00:53:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 00:53:59 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/07/08 00:53:59 [notice] 1#1: worker process 34 exited with code 0
+2024/07/08 00:53:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 00:53:59 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/08 00:53:59 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 00:53:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 01:09:07 [emerg] 74#74: "server_name" directive is not allowed here in /etc/nginx/conf.d/default.conf:13
+2024/07/08 01:23:01 [notice] 77#77: signal process started
+2024/07/08 01:23:01 [notice] 1#1: signal 1 (SIGHUP) received from 77, reconfiguring
+2024/07/08 01:23:01 [notice] 1#1: reconfiguring
+2024/07/08 01:23:01 [notice] 1#1: using the "epoll" event method
+2024/07/08 01:23:01 [notice] 1#1: start worker processes
+2024/07/08 01:23:01 [notice] 1#1: start worker process 78
+2024/07/08 01:23:01 [notice] 1#1: start worker process 79
+2024/07/08 01:23:01 [notice] 1#1: start worker process 80
+2024/07/08 01:23:01 [notice] 1#1: start worker process 81
+2024/07/08 01:23:01 [notice] 66#66: gracefully shutting down
+2024/07/08 01:23:01 [notice] 65#65: gracefully shutting down
+2024/07/08 01:23:01 [notice] 68#68: gracefully shutting down
+2024/07/08 01:23:01 [notice] 67#67: gracefully shutting down
+2024/07/08 01:23:01 [notice] 66#66: exiting
+2024/07/08 01:23:01 [notice] 65#65: exiting
+2024/07/08 01:23:01 [notice] 68#68: exiting
+2024/07/08 01:23:01 [notice] 67#67: exiting
+2024/07/08 01:23:01 [notice] 66#66: exit
+2024/07/08 01:23:01 [notice] 65#65: exit
+2024/07/08 01:23:01 [notice] 68#68: exit
+2024/07/08 01:23:01 [notice] 67#67: exit
+2024/07/08 01:23:01 [notice] 1#1: signal 17 (SIGCHLD) received from 68
+2024/07/08 01:23:01 [notice] 1#1: worker process 65 exited with code 0
+2024/07/08 01:23:01 [notice] 1#1: worker process 68 exited with code 0
+2024/07/08 01:23:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 01:23:01 [notice] 1#1: signal 17 (SIGCHLD) received from 66
+2024/07/08 01:23:01 [notice] 1#1: worker process 66 exited with code 0
+2024/07/08 01:23:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 01:23:01 [notice] 1#1: signal 17 (SIGCHLD) received from 67
+2024/07/08 01:23:01 [notice] 1#1: worker process 67 exited with code 0
+2024/07/08 01:23:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 01:25:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 01:25:07 [notice] 79#79: gracefully shutting down
+2024/07/08 01:25:07 [notice] 80#80: gracefully shutting down
+2024/07/08 01:25:07 [notice] 80#80: exiting
+2024/07/08 01:25:07 [notice] 81#81: gracefully shutting down
+2024/07/08 01:25:07 [notice] 81#81: exiting
+2024/07/08 01:25:07 [notice] 78#78: gracefully shutting down
+2024/07/08 01:25:07 [notice] 79#79: exiting
+2024/07/08 01:25:07 [notice] 80#80: exit
+2024/07/08 01:25:07 [notice] 81#81: exit
+2024/07/08 01:25:07 [notice] 78#78: exiting
+2024/07/08 01:25:07 [notice] 78#78: exit
+2024/07/08 01:25:07 [notice] 79#79: exit
+2024/07/08 01:25:07 [notice] 1#1: signal 17 (SIGCHLD) received from 80
+2024/07/08 01:25:07 [notice] 1#1: worker process 79 exited with code 0
+2024/07/08 01:25:07 [notice] 1#1: worker process 80 exited with code 0
+2024/07/08 01:25:07 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 01:25:07 [notice] 1#1: signal 17 (SIGCHLD) received from 79
+2024/07/08 01:25:07 [notice] 1#1: signal 17 (SIGCHLD) received from 81
+2024/07/08 01:25:07 [notice] 1#1: worker process 81 exited with code 0
+2024/07/08 01:25:07 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 01:25:07 [notice] 1#1: signal 17 (SIGCHLD) received from 78
+2024/07/08 01:25:07 [notice] 1#1: worker process 78 exited with code 0
+2024/07/08 01:25:07 [notice] 1#1: exit
+2024/07/08 01:25:23 [notice] 1#1: using the "epoll" event method
+2024/07/08 01:25:23 [notice] 1#1: nginx/1.27.0
+2024/07/08 01:25:23 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 01:25:23 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/08 01:25:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 01:25:23 [notice] 1#1: start worker processes
+2024/07/08 01:25:23 [notice] 1#1: start worker process 31
+2024/07/08 01:25:23 [notice] 1#1: start worker process 32
+2024/07/08 01:25:23 [notice] 1#1: start worker process 33
+2024/07/08 01:25:23 [notice] 1#1: start worker process 34
+2024/07/08 02:00:59 [notice] 55#55: signal process started
+2024/07/08 02:00:59 [notice] 1#1: signal 1 (SIGHUP) received from 55, reconfiguring
+2024/07/08 02:00:59 [notice] 1#1: reconfiguring
+2024/07/08 02:00:59 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:00:59 [notice] 1#1: start worker processes
+2024/07/08 02:00:59 [notice] 1#1: start worker process 56
+2024/07/08 02:00:59 [notice] 1#1: start worker process 57
+2024/07/08 02:00:59 [notice] 1#1: start worker process 58
+2024/07/08 02:00:59 [notice] 1#1: start worker process 59
+2024/07/08 02:01:00 [notice] 32#32: gracefully shutting down
+2024/07/08 02:01:00 [notice] 31#31: gracefully shutting down
+2024/07/08 02:01:00 [notice] 33#33: gracefully shutting down
+2024/07/08 02:01:00 [notice] 34#34: gracefully shutting down
+2024/07/08 02:01:00 [notice] 32#32: exiting
+2024/07/08 02:01:00 [notice] 31#31: exiting
+2024/07/08 02:01:00 [notice] 33#33: exiting
+2024/07/08 02:01:00 [notice] 34#34: exiting
+2024/07/08 02:01:00 [notice] 32#32: exit
+2024/07/08 02:01:00 [notice] 31#31: exit
+2024/07/08 02:01:00 [notice] 33#33: exit
+2024/07/08 02:01:00 [notice] 34#34: exit
+2024/07/08 02:01:00 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/08 02:01:00 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 02:01:00 [notice] 1#1: worker process 34 exited with code 0
+2024/07/08 02:01:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:01:00 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/08 02:01:00 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 02:01:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:01:00 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/08 02:01:00 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 02:01:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:13:02 [notice] 96#96: signal process started
+2024/07/08 02:13:02 [notice] 1#1: signal 1 (SIGHUP) received from 96, reconfiguring
+2024/07/08 02:13:02 [notice] 1#1: reconfiguring
+2024/07/08 02:13:02 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:13:02 [notice] 1#1: start worker processes
+2024/07/08 02:13:02 [notice] 1#1: start worker process 97
+2024/07/08 02:13:02 [notice] 1#1: start worker process 98
+2024/07/08 02:13:02 [notice] 1#1: start worker process 99
+2024/07/08 02:13:02 [notice] 1#1: start worker process 100
+2024/07/08 02:13:02 [notice] 56#56: gracefully shutting down
+2024/07/08 02:13:02 [notice] 57#57: gracefully shutting down
+2024/07/08 02:13:02 [notice] 59#59: gracefully shutting down
+2024/07/08 02:13:02 [notice] 58#58: gracefully shutting down
+2024/07/08 02:13:02 [notice] 56#56: exiting
+2024/07/08 02:13:02 [notice] 57#57: exiting
+2024/07/08 02:13:02 [notice] 56#56: exit
+2024/07/08 02:13:02 [notice] 59#59: exiting
+2024/07/08 02:13:02 [notice] 58#58: exiting
+2024/07/08 02:13:02 [notice] 57#57: exit
+2024/07/08 02:13:02 [notice] 59#59: exit
+2024/07/08 02:13:02 [notice] 58#58: exit
+2024/07/08 02:13:02 [notice] 1#1: signal 17 (SIGCHLD) received from 58
+2024/07/08 02:13:02 [notice] 1#1: worker process 58 exited with code 0
+2024/07/08 02:13:02 [notice] 1#1: worker process 59 exited with code 0
+2024/07/08 02:13:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:13:02 [notice] 1#1: signal 17 (SIGCHLD) received from 57
+2024/07/08 02:13:02 [notice] 1#1: worker process 57 exited with code 0
+2024/07/08 02:13:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:13:02 [notice] 1#1: signal 17 (SIGCHLD) received from 56
+2024/07/08 02:13:02 [notice] 1#1: worker process 56 exited with code 0
+2024/07/08 02:13:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:14:08 [notice] 102#102: signal process started
+2024/07/08 02:14:08 [notice] 1#1: signal 1 (SIGHUP) received from 102, reconfiguring
+2024/07/08 02:14:08 [notice] 1#1: reconfiguring
+2024/07/08 02:14:08 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:14:08 [notice] 1#1: start worker processes
+2024/07/08 02:14:08 [notice] 1#1: start worker process 103
+2024/07/08 02:14:08 [notice] 1#1: start worker process 104
+2024/07/08 02:14:08 [notice] 1#1: start worker process 105
+2024/07/08 02:14:08 [notice] 1#1: start worker process 106
+2024/07/08 02:14:08 [notice] 97#97: gracefully shutting down
+2024/07/08 02:14:08 [notice] 98#98: gracefully shutting down
+2024/07/08 02:14:08 [notice] 100#100: gracefully shutting down
+2024/07/08 02:14:08 [notice] 99#99: gracefully shutting down
+2024/07/08 02:14:08 [notice] 97#97: exiting
+2024/07/08 02:14:08 [notice] 100#100: exiting
+2024/07/08 02:14:08 [notice] 99#99: exiting
+2024/07/08 02:14:08 [notice] 100#100: exit
+2024/07/08 02:14:08 [notice] 97#97: exit
+2024/07/08 02:14:08 [notice] 99#99: exit
+2024/07/08 02:14:08 [notice] 1#1: signal 17 (SIGCHLD) received from 99
+2024/07/08 02:14:08 [notice] 1#1: worker process 97 exited with code 0
+2024/07/08 02:14:08 [notice] 1#1: worker process 99 exited with code 0
+2024/07/08 02:14:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:14:08 [notice] 1#1: signal 17 (SIGCHLD) received from 100
+2024/07/08 02:14:08 [notice] 1#1: worker process 100 exited with code 0
+2024/07/08 02:14:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:14:21 [notice] 98#98: exiting
+2024/07/08 02:14:21 [notice] 98#98: exit
+2024/07/08 02:14:21 [notice] 1#1: signal 17 (SIGCHLD) received from 98
+2024/07/08 02:14:21 [notice] 1#1: worker process 98 exited with code 0
+2024/07/08 02:14:21 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:15:32 [notice] 108#108: signal process started
+2024/07/08 02:15:32 [notice] 1#1: signal 1 (SIGHUP) received from 108, reconfiguring
+2024/07/08 02:15:32 [notice] 1#1: reconfiguring
+2024/07/08 02:15:32 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:15:32 [notice] 1#1: start worker processes
+2024/07/08 02:15:32 [notice] 1#1: start worker process 109
+2024/07/08 02:15:32 [notice] 1#1: start worker process 110
+2024/07/08 02:15:32 [notice] 1#1: start worker process 111
+2024/07/08 02:15:32 [notice] 1#1: start worker process 112
+2024/07/08 02:15:32 [notice] 103#103: gracefully shutting down
+2024/07/08 02:15:32 [notice] 105#105: gracefully shutting down
+2024/07/08 02:15:32 [notice] 106#106: gracefully shutting down
+2024/07/08 02:15:32 [notice] 104#104: gracefully shutting down
+2024/07/08 02:15:32 [notice] 103#103: exiting
+2024/07/08 02:15:32 [notice] 105#105: exiting
+2024/07/08 02:15:32 [notice] 106#106: exiting
+2024/07/08 02:15:32 [notice] 104#104: exiting
+2024/07/08 02:15:32 [notice] 103#103: exit
+2024/07/08 02:15:32 [notice] 105#105: exit
+2024/07/08 02:15:32 [notice] 106#106: exit
+2024/07/08 02:15:32 [notice] 104#104: exit
+2024/07/08 02:15:32 [notice] 1#1: signal 17 (SIGCHLD) received from 103
+2024/07/08 02:15:32 [notice] 1#1: worker process 103 exited with code 0
+2024/07/08 02:15:32 [notice] 1#1: worker process 106 exited with code 0
+2024/07/08 02:15:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:15:32 [notice] 1#1: signal 17 (SIGCHLD) received from 105
+2024/07/08 02:15:32 [notice] 1#1: worker process 105 exited with code 0
+2024/07/08 02:15:32 [notice] 1#1: worker process 104 exited with code 0
+2024/07/08 02:15:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:15:32 [notice] 1#1: signal 17 (SIGCHLD) received from 104
+2024/07/08 02:22:19 [notice] 114#114: signal process started
+2024/07/08 02:22:19 [notice] 1#1: signal 1 (SIGHUP) received from 114, reconfiguring
+2024/07/08 02:22:19 [notice] 1#1: reconfiguring
+2024/07/08 02:22:19 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:22:19 [notice] 1#1: start worker processes
+2024/07/08 02:22:19 [notice] 1#1: start worker process 115
+2024/07/08 02:22:19 [notice] 1#1: start worker process 116
+2024/07/08 02:22:19 [notice] 1#1: start worker process 117
+2024/07/08 02:22:19 [notice] 1#1: start worker process 118
+2024/07/08 02:22:19 [notice] 109#109: gracefully shutting down
+2024/07/08 02:22:19 [notice] 111#111: gracefully shutting down
+2024/07/08 02:22:19 [notice] 112#112: gracefully shutting down
+2024/07/08 02:22:19 [notice] 110#110: gracefully shutting down
+2024/07/08 02:22:19 [notice] 109#109: exiting
+2024/07/08 02:22:19 [notice] 111#111: exiting
+2024/07/08 02:22:19 [notice] 109#109: exit
+2024/07/08 02:22:19 [notice] 112#112: exiting
+2024/07/08 02:22:19 [notice] 110#110: exiting
+2024/07/08 02:22:19 [notice] 111#111: exit
+2024/07/08 02:22:19 [notice] 110#110: exit
+2024/07/08 02:22:19 [notice] 112#112: exit
+2024/07/08 02:22:19 [notice] 1#1: signal 17 (SIGCHLD) received from 111
+2024/07/08 02:22:19 [notice] 1#1: worker process 111 exited with code 0
+2024/07/08 02:22:19 [notice] 1#1: worker process 112 exited with code 0
+2024/07/08 02:22:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:22:19 [notice] 1#1: signal 17 (SIGCHLD) received from 110
+2024/07/08 02:22:19 [notice] 1#1: worker process 110 exited with code 0
+2024/07/08 02:22:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:22:19 [notice] 1#1: signal 17 (SIGCHLD) received from 109
+2024/07/08 02:22:19 [notice] 1#1: worker process 109 exited with code 0
+2024/07/08 02:22:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:25:27 [notice] 120#120: signal process started
+2024/07/08 02:25:27 [notice] 1#1: signal 1 (SIGHUP) received from 120, reconfiguring
+2024/07/08 02:25:27 [notice] 1#1: reconfiguring
+2024/07/08 02:25:27 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:25:27 [notice] 1#1: start worker processes
+2024/07/08 02:25:27 [notice] 1#1: start worker process 121
+2024/07/08 02:25:27 [notice] 1#1: start worker process 122
+2024/07/08 02:25:27 [notice] 1#1: start worker process 123
+2024/07/08 02:25:27 [notice] 1#1: start worker process 124
+2024/07/08 02:25:27 [notice] 115#115: gracefully shutting down
+2024/07/08 02:25:27 [notice] 116#116: gracefully shutting down
+2024/07/08 02:25:27 [notice] 118#118: gracefully shutting down
+2024/07/08 02:25:27 [notice] 117#117: gracefully shutting down
+2024/07/08 02:25:27 [notice] 115#115: exiting
+2024/07/08 02:25:27 [notice] 116#116: exiting
+2024/07/08 02:25:27 [notice] 118#118: exiting
+2024/07/08 02:25:27 [notice] 117#117: exiting
+2024/07/08 02:25:27 [notice] 118#118: exit
+2024/07/08 02:25:27 [notice] 116#116: exit
+2024/07/08 02:25:27 [notice] 115#115: exit
+2024/07/08 02:25:27 [notice] 117#117: exit
+2024/07/08 02:25:27 [notice] 1#1: signal 17 (SIGCHLD) received from 116
+2024/07/08 02:25:27 [notice] 1#1: worker process 116 exited with code 0
+2024/07/08 02:25:27 [notice] 1#1: worker process 118 exited with code 0
+2024/07/08 02:25:27 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:25:27 [notice] 1#1: signal 17 (SIGCHLD) received from 117
+2024/07/08 02:25:27 [notice] 1#1: worker process 117 exited with code 0
+2024/07/08 02:25:27 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:25:27 [notice] 1#1: signal 17 (SIGCHLD) received from 115
+2024/07/08 02:25:27 [notice] 1#1: worker process 115 exited with code 0
+2024/07/08 02:25:27 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:27:00 [notice] 126#126: signal process started
+2024/07/08 02:27:00 [notice] 1#1: signal 1 (SIGHUP) received from 126, reconfiguring
+2024/07/08 02:27:00 [notice] 1#1: reconfiguring
+2024/07/08 02:27:00 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:27:00 [notice] 1#1: start worker processes
+2024/07/08 02:27:00 [notice] 1#1: start worker process 127
+2024/07/08 02:27:00 [notice] 1#1: start worker process 128
+2024/07/08 02:27:00 [notice] 1#1: start worker process 129
+2024/07/08 02:27:00 [notice] 1#1: start worker process 130
+2024/07/08 02:27:00 [notice] 122#122: gracefully shutting down
+2024/07/08 02:27:00 [notice] 122#122: exiting
+2024/07/08 02:27:00 [notice] 121#121: gracefully shutting down
+2024/07/08 02:27:00 [notice] 123#123: gracefully shutting down
+2024/07/08 02:27:00 [notice] 123#123: exiting
+2024/07/08 02:27:00 [notice] 124#124: gracefully shutting down
+2024/07/08 02:27:00 [notice] 122#122: exit
+2024/07/08 02:27:00 [notice] 121#121: exiting
+2024/07/08 02:27:00 [notice] 124#124: exiting
+2024/07/08 02:27:00 [notice] 121#121: exit
+2024/07/08 02:27:00 [notice] 123#123: exit
+2024/07/08 02:27:00 [notice] 124#124: exit
+2024/07/08 02:27:00 [notice] 1#1: signal 17 (SIGCHLD) received from 121
+2024/07/08 02:27:00 [notice] 1#1: worker process 121 exited with code 0
+2024/07/08 02:27:00 [notice] 1#1: worker process 124 exited with code 0
+2024/07/08 02:27:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:27:00 [notice] 1#1: signal 17 (SIGCHLD) received from 123
+2024/07/08 02:27:00 [notice] 1#1: worker process 123 exited with code 0
+2024/07/08 02:27:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:27:00 [notice] 1#1: signal 17 (SIGCHLD) received from 122
+2024/07/08 02:27:00 [notice] 1#1: worker process 122 exited with code 0
+2024/07/08 02:27:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:30:50 [notice] 134#134: signal process started
+2024/07/08 02:30:50 [notice] 1#1: signal 1 (SIGHUP) received from 134, reconfiguring
+2024/07/08 02:30:50 [notice] 1#1: reconfiguring
+2024/07/08 02:30:50 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:30:50 [notice] 1#1: start worker processes
+2024/07/08 02:30:50 [notice] 1#1: start worker process 135
+2024/07/08 02:30:50 [notice] 1#1: start worker process 136
+2024/07/08 02:30:50 [notice] 1#1: start worker process 137
+2024/07/08 02:30:50 [notice] 1#1: start worker process 138
+2024/07/08 02:30:50 [notice] 127#127: gracefully shutting down
+2024/07/08 02:30:50 [notice] 128#128: gracefully shutting down
+2024/07/08 02:30:50 [notice] 130#130: gracefully shutting down
+2024/07/08 02:30:50 [notice] 130#130: exiting
+2024/07/08 02:30:50 [notice] 129#129: gracefully shutting down
+2024/07/08 02:30:50 [notice] 127#127: exiting
+2024/07/08 02:30:50 [notice] 128#128: exiting
+2024/07/08 02:30:50 [notice] 130#130: exit
+2024/07/08 02:30:50 [notice] 129#129: exiting
+2024/07/08 02:30:50 [notice] 127#127: exit
+2024/07/08 02:30:50 [notice] 129#129: exit
+2024/07/08 02:30:50 [notice] 128#128: exit
+2024/07/08 02:30:50 [notice] 1#1: signal 17 (SIGCHLD) received from 128
+2024/07/08 02:30:50 [notice] 1#1: worker process 128 exited with code 0
+2024/07/08 02:30:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:30:50 [notice] 1#1: signal 17 (SIGCHLD) received from 130
+2024/07/08 02:30:50 [notice] 1#1: worker process 130 exited with code 0
+2024/07/08 02:30:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:30:50 [notice] 1#1: signal 17 (SIGCHLD) received from 129
+2024/07/08 02:30:50 [notice] 1#1: worker process 129 exited with code 0
+2024/07/08 02:30:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:30:50 [notice] 1#1: signal 17 (SIGCHLD) received from 127
+2024/07/08 02:30:50 [notice] 1#1: worker process 127 exited with code 0
+2024/07/08 02:30:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:37:19 [notice] 151#151: signal process started
+2024/07/08 02:37:19 [notice] 1#1: signal 1 (SIGHUP) received from 151, reconfiguring
+2024/07/08 02:37:19 [notice] 1#1: reconfiguring
+2024/07/08 02:37:19 [notice] 1#1: using the "epoll" event method
+2024/07/08 02:37:19 [notice] 1#1: start worker processes
+2024/07/08 02:37:19 [notice] 1#1: start worker process 152
+2024/07/08 02:37:19 [notice] 1#1: start worker process 153
+2024/07/08 02:37:19 [notice] 1#1: start worker process 154
+2024/07/08 02:37:19 [notice] 1#1: start worker process 155
+2024/07/08 02:37:19 [notice] 135#135: gracefully shutting down
+2024/07/08 02:37:19 [notice] 136#136: gracefully shutting down
+2024/07/08 02:37:19 [notice] 137#137: gracefully shutting down
+2024/07/08 02:37:19 [notice] 138#138: gracefully shutting down
+2024/07/08 02:37:19 [notice] 135#135: exiting
+2024/07/08 02:37:19 [notice] 136#136: exiting
+2024/07/08 02:37:19 [notice] 137#137: exiting
+2024/07/08 02:37:19 [notice] 138#138: exiting
+2024/07/08 02:37:19 [notice] 137#137: exit
+2024/07/08 02:37:19 [notice] 135#135: exit
+2024/07/08 02:37:19 [notice] 136#136: exit
+2024/07/08 02:37:19 [notice] 138#138: exit
+2024/07/08 02:37:19 [notice] 1#1: signal 17 (SIGCHLD) received from 135
+2024/07/08 02:37:19 [notice] 1#1: worker process 135 exited with code 0
+2024/07/08 02:37:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:37:19 [notice] 1#1: signal 17 (SIGCHLD) received from 136
+2024/07/08 02:37:19 [notice] 1#1: worker process 136 exited with code 0
+2024/07/08 02:37:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:37:19 [notice] 1#1: signal 17 (SIGCHLD) received from 138
+2024/07/08 02:37:19 [notice] 1#1: worker process 138 exited with code 0
+2024/07/08 02:37:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 02:37:19 [notice] 1#1: signal 17 (SIGCHLD) received from 137
+2024/07/08 02:37:19 [notice] 1#1: worker process 137 exited with code 0
+2024/07/08 02:37:19 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:05:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 03:05:05 [notice] 152#152: gracefully shutting down
+2024/07/08 03:05:05 [notice] 152#152: exiting
+2024/07/08 03:05:05 [notice] 154#154: gracefully shutting down
+2024/07/08 03:05:05 [notice] 153#153: gracefully shutting down
+2024/07/08 03:05:05 [notice] 155#155: gracefully shutting down
+2024/07/08 03:05:05 [notice] 152#152: exit
+2024/07/08 03:05:05 [notice] 154#154: exiting
+2024/07/08 03:05:05 [notice] 153#153: exiting
+2024/07/08 03:05:05 [notice] 155#155: exiting
+2024/07/08 03:05:05 [notice] 154#154: exit
+2024/07/08 03:05:05 [notice] 153#153: exit
+2024/07/08 03:05:05 [notice] 155#155: exit
+2024/07/08 03:05:05 [notice] 1#1: signal 17 (SIGCHLD) received from 153
+2024/07/08 03:05:05 [notice] 1#1: worker process 153 exited with code 0
+2024/07/08 03:05:05 [notice] 1#1: worker process 154 exited with code 0
+2024/07/08 03:05:05 [notice] 1#1: worker process 155 exited with code 0
+2024/07/08 03:05:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:05:05 [notice] 1#1: signal 17 (SIGCHLD) received from 152
+2024/07/08 03:05:05 [notice] 1#1: worker process 152 exited with code 0
+2024/07/08 03:05:05 [notice] 1#1: exit
+2024/07/08 03:07:08 [notice] 1#1: using the "epoll" event method
+2024/07/08 03:07:08 [notice] 1#1: nginx/1.27.0
+2024/07/08 03:07:08 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 03:07:08 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/08 03:07:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 03:07:08 [notice] 1#1: start worker processes
+2024/07/08 03:07:08 [notice] 1#1: start worker process 30
+2024/07/08 03:07:08 [notice] 1#1: start worker process 31
+2024/07/08 03:07:08 [notice] 1#1: start worker process 32
+2024/07/08 03:07:08 [notice] 1#1: start worker process 33
+2024/07/08 03:15:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 03:15:10 [notice] 30#30: gracefully shutting down
+2024/07/08 03:15:10 [notice] 33#33: gracefully shutting down
+2024/07/08 03:15:10 [notice] 31#31: gracefully shutting down
+2024/07/08 03:15:10 [notice] 31#31: exiting
+2024/07/08 03:15:10 [notice] 30#30: exiting
+2024/07/08 03:15:10 [notice] 33#33: exiting
+2024/07/08 03:15:10 [notice] 31#31: exit
+2024/07/08 03:15:10 [notice] 32#32: gracefully shutting down
+2024/07/08 03:15:10 [notice] 30#30: exit
+2024/07/08 03:15:10 [notice] 33#33: exit
+2024/07/08 03:15:10 [notice] 32#32: exiting
+2024/07/08 03:15:10 [notice] 32#32: exit
+2024/07/08 03:15:10 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/08 03:15:10 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 03:15:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:15:10 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/08 03:15:10 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 03:15:10 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 03:15:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 03:15:10 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/08 03:15:10 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 03:15:10 [notice] 1#1: exit
+2024/07/08 03:16:54 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:16:55 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:16:56 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:16:57 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:16:58 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:17:00 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:17:04 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:17:11 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:17:24 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:17:50 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:18:42 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:19:42 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:20:43 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:21:43 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:22:44 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:23:44 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:24:45 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:25:45 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:26:46 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:27:46 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:28:47 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:29:47 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:30:47 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:31:48 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:32:48 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:33:49 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:34:49 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:37:20 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:37:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:37:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:37:23 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:37:25 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:37:27 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:37:31 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:37:38 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:37:51 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:38:17 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:39:09 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:40:09 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:41:10 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:42:10 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:43:11 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:44:11 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:45:12 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:46:12 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:47:13 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:48:13 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:49:14 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:50:14 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:51:14 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:52:15 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:53:15 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:54:16 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:55:16 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:56:17 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:57:17 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:58:18 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 03:59:18 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:00:19 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:01:19 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:02:20 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:03:20 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:04:21 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:05:21 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:06:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:07:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:08:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:09:23 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:10:23 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:11:24 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:12:24 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:13:25 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:14:26 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:15:26 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:16:26 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:17:27 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:18:27 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:19:28 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:20:28 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:21:29 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:22:29 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:23:30 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:24:30 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:25:31 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:26:31 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:27:32 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:28:32 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:29:33 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:30:33 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:31:34 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:32:34 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:33:35 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:34:35 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:35:36 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:36:36 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:37:37 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:38:37 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:39:38 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:40:38 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:41:39 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:42:39 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:43:39 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:44:40 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:45:41 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:46:41 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:47:42 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:48:42 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:49:42 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:50:43 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:51:43 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:52:44 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:53:44 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:54:45 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:55:45 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:56:46 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:57:46 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:58:47 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 04:59:47 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:00:48 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:01:48 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:02:49 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:03:49 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:04:50 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:05:50 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:06:51 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:07:51 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:08:52 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:09:52 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:10:53 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:11:53 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:12:54 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:13:54 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:14:54 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:15:55 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:16:55 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:17:56 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:18:56 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:19:57 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:20:57 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:21:58 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:22:58 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:23:59 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:24:59 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:26:00 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:27:00 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:28:01 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:29:01 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:30:02 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:31:02 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:32:03 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:33:03 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:34:04 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:35:04 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:36:05 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:37:05 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:38:06 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:39:06 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:40:07 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:41:07 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:42:08 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:43:08 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:44:09 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:45:09 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:46:09 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:47:10 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:48:10 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:49:11 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:50:11 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:51:12 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:52:12 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:53:13 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:54:13 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:55:14 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:56:14 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:57:15 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:58:15 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 05:59:16 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:00:16 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:01:17 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:02:17 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:03:18 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:04:18 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:05:19 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:06:19 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:07:20 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:08:20 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:09:21 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:10:21 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:11:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:12:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:13:23 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:14:23 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:15:24 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:16:24 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:17:25 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:18:26 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:19:26 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:20:26 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:21:27 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:22:27 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:23:28 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:24:28 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:25:29 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:26:29 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:27:30 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:28:30 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:29:31 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:30:31 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:31:32 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:32:32 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:33:33 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:34:33 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:35:34 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:36:34 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:37:35 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:38:35 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:39:36 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:40:36 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:41:37 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:42:37 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:43:38 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:44:38 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:45:39 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:46:39 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:47:40 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:48:41 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:49:41 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:50:42 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:51:42 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:52:42 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:53:43 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:54:43 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:55:44 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:56:44 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:57:45 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:58:45 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 06:59:46 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:00:46 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:01:47 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:02:47 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:03:48 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:04:48 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:05:49 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:06:49 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:07:50 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:08:50 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:09:51 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:10:51 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:11:52 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:12:52 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:13:53 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:14:53 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:15:53 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:16:54 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:17:54 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:18:55 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:19:55 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:20:56 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:21:56 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:22:57 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:23:57 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:24:58 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:25:58 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:26:59 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:27:59 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:29:00 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:30:00 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:31:01 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:32:01 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:33:02 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:34:02 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:35:03 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:36:03 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:37:04 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:38:04 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:39:05 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:40:05 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:41:06 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:42:06 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:43:07 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:44:07 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:45:08 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:46:08 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:47:09 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:48:09 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:49:10 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:50:10 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:51:11 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:52:11 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:53:12 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:54:12 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:55:13 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:56:13 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:57:14 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:58:14 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 07:59:15 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:00:15 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:01:15 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:02:16 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:03:16 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:04:17 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:05:17 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:06:18 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:07:19 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:08:19 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:09:20 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:10:20 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:11:21 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:12:21 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:13:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:14:22 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:15:23 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:16:23 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:17:24 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:18:24 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:19:25 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:20:25 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:21:26 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:22:26 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:23:27 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:24:27 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:25:28 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:26:28 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:27:29 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:28:29 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:29:30 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:30:30 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:31:31 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:32:31 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:33:32 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:34:32 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:35:33 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:36:33 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:37:34 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:38:34 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:39:35 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:40:35 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:41:36 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:42:36 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:43:37 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:44:37 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:45:38 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:46:38 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:47:39 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:48:39 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:49:40 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:50:40 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:51:41 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:52:41 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:53:42 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:54:42 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:55:43 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:56:43 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:57:44 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:58:44 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 08:59:45 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:00:45 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:01:46 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:02:46 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:03:47 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:04:47 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:05:47 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:06:48 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:07:48 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:08:49 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:09:49 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:10:50 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:11:50 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:12:51 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:13:51 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:14:52 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:15:52 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:16:53 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:17:53 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:18:54 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:19:54 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:20:55 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:21:55 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:22:56 [emerg] 1#1: "user" directive is not allowed here in /etc/nginx/conf.d/default.conf:4
+2024/07/08 09:23:06 [notice] 1#1: using the "epoll" event method
+2024/07/08 09:23:06 [notice] 1#1: nginx/1.27.0
+2024/07/08 09:23:06 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 09:23:06 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/08 09:23:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 09:23:06 [notice] 1#1: start worker processes
+2024/07/08 09:23:06 [notice] 1#1: start worker process 30
+2024/07/08 09:23:06 [notice] 1#1: start worker process 31
+2024/07/08 09:23:06 [notice] 1#1: start worker process 32
+2024/07/08 09:23:06 [notice] 1#1: start worker process 33
+2024/07/08 09:29:17 [emerg] 53#53: "fastcgi_pass" directive is not allowed here in /etc/nginx/conf.d/default.conf:33
+2024/07/08 09:29:40 [notice] 55#55: signal process started
+2024/07/08 09:29:40 [notice] 1#1: signal 1 (SIGHUP) received from 55, reconfiguring
+2024/07/08 09:29:40 [notice] 1#1: reconfiguring
+2024/07/08 09:29:40 [notice] 1#1: using the "epoll" event method
+2024/07/08 09:29:40 [notice] 1#1: start worker processes
+2024/07/08 09:29:40 [notice] 1#1: start worker process 56
+2024/07/08 09:29:40 [notice] 1#1: start worker process 57
+2024/07/08 09:29:40 [notice] 1#1: start worker process 58
+2024/07/08 09:29:40 [notice] 1#1: start worker process 59
+2024/07/08 09:29:40 [notice] 30#30: gracefully shutting down
+2024/07/08 09:29:40 [notice] 33#33: gracefully shutting down
+2024/07/08 09:29:40 [notice] 32#32: gracefully shutting down
+2024/07/08 09:29:40 [notice] 31#31: gracefully shutting down
+2024/07/08 09:29:40 [notice] 30#30: exiting
+2024/07/08 09:29:40 [notice] 33#33: exiting
+2024/07/08 09:29:40 [notice] 32#32: exiting
+2024/07/08 09:29:40 [notice] 31#31: exiting
+2024/07/08 09:29:40 [notice] 30#30: exit
+2024/07/08 09:29:40 [notice] 33#33: exit
+2024/07/08 09:29:40 [notice] 32#32: exit
+2024/07/08 09:29:40 [notice] 31#31: exit
+2024/07/08 09:29:40 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/08 09:29:40 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 09:29:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:29:40 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/08 09:29:40 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 09:29:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:29:40 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/08 09:29:40 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 09:29:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:29:40 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/08 09:29:40 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 09:29:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:29:48 [error] 57#57: *5 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8000"
+2024/07/08 09:37:46 [emerg] 63#63: no port in upstream "php-upstream" in /etc/nginx/conf.d/default.conf:33
+2024/07/08 09:45:00 [notice] 69#69: signal process started
+2024/07/08 09:45:00 [notice] 1#1: signal 1 (SIGHUP) received from 69, reconfiguring
+2024/07/08 09:45:00 [notice] 1#1: reconfiguring
+2024/07/08 09:45:00 [notice] 1#1: using the "epoll" event method
+2024/07/08 09:45:00 [notice] 1#1: start worker processes
+2024/07/08 09:45:00 [notice] 1#1: start worker process 70
+2024/07/08 09:45:00 [notice] 1#1: start worker process 71
+2024/07/08 09:45:00 [notice] 1#1: start worker process 72
+2024/07/08 09:45:00 [notice] 1#1: start worker process 73
+2024/07/08 09:45:00 [notice] 56#56: gracefully shutting down
+2024/07/08 09:45:00 [notice] 57#57: gracefully shutting down
+2024/07/08 09:45:00 [notice] 58#58: gracefully shutting down
+2024/07/08 09:45:00 [notice] 59#59: gracefully shutting down
+2024/07/08 09:45:00 [notice] 56#56: exiting
+2024/07/08 09:45:00 [notice] 57#57: exiting
+2024/07/08 09:45:00 [notice] 58#58: exiting
+2024/07/08 09:45:00 [notice] 59#59: exiting
+2024/07/08 09:45:00 [notice] 58#58: exit
+2024/07/08 09:45:00 [notice] 56#56: exit
+2024/07/08 09:45:00 [notice] 57#57: exit
+2024/07/08 09:45:00 [notice] 59#59: exit
+2024/07/08 09:45:01 [notice] 1#1: signal 17 (SIGCHLD) received from 59
+2024/07/08 09:45:01 [notice] 1#1: worker process 59 exited with code 0
+2024/07/08 09:45:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:45:01 [notice] 1#1: signal 17 (SIGCHLD) received from 57
+2024/07/08 09:45:01 [notice] 1#1: worker process 57 exited with code 0
+2024/07/08 09:45:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:45:01 [notice] 1#1: signal 17 (SIGCHLD) received from 56
+2024/07/08 09:45:01 [notice] 1#1: worker process 56 exited with code 0
+2024/07/08 09:45:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:45:01 [notice] 1#1: signal 17 (SIGCHLD) received from 58
+2024/07/08 09:45:01 [notice] 1#1: worker process 58 exited with code 0
+2024/07/08 09:45:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:45:07 [error] 70#70: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.2:8000", host: "127.0.0.1:8000"
+2024/07/08 09:45:11 [error] 72#72: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.21.0.2:8000", host: "127.0.0.1:8000"
+2024/07/08 09:46:03 [notice] 75#75: signal process started
+2024/07/08 09:46:03 [notice] 1#1: signal 1 (SIGHUP) received from 75, reconfiguring
+2024/07/08 09:46:03 [notice] 1#1: reconfiguring
+2024/07/08 09:46:03 [notice] 1#1: using the "epoll" event method
+2024/07/08 09:46:03 [notice] 1#1: start worker processes
+2024/07/08 09:46:03 [notice] 1#1: start worker process 76
+2024/07/08 09:46:03 [notice] 1#1: start worker process 77
+2024/07/08 09:46:03 [notice] 1#1: start worker process 78
+2024/07/08 09:46:03 [notice] 1#1: start worker process 79
+2024/07/08 09:46:03 [notice] 70#70: gracefully shutting down
+2024/07/08 09:46:03 [notice] 70#70: exiting
+2024/07/08 09:46:03 [notice] 71#71: gracefully shutting down
+2024/07/08 09:46:03 [notice] 72#72: gracefully shutting down
+2024/07/08 09:46:03 [notice] 72#72: exiting
+2024/07/08 09:46:03 [notice] 73#73: gracefully shutting down
+2024/07/08 09:46:03 [notice] 70#70: exit
+2024/07/08 09:46:03 [notice] 71#71: exiting
+2024/07/08 09:46:03 [notice] 72#72: exit
+2024/07/08 09:46:03 [notice] 73#73: exiting
+2024/07/08 09:46:03 [notice] 71#71: exit
+2024/07/08 09:46:03 [notice] 73#73: exit
+2024/07/08 09:46:03 [notice] 1#1: signal 17 (SIGCHLD) received from 71
+2024/07/08 09:46:03 [notice] 1#1: worker process 71 exited with code 0
+2024/07/08 09:46:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:46:03 [notice] 1#1: signal 17 (SIGCHLD) received from 73
+2024/07/08 09:46:03 [notice] 1#1: worker process 73 exited with code 0
+2024/07/08 09:46:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:46:03 [notice] 1#1: signal 17 (SIGCHLD) received from 72
+2024/07/08 09:46:03 [notice] 1#1: worker process 72 exited with code 0
+2024/07/08 09:46:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 09:46:03 [notice] 1#1: signal 17 (SIGCHLD) received from 70
+2024/07/08 09:46:03 [notice] 1#1: worker process 70 exited with code 0
+2024/07/08 09:46:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 10:21:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 10:21:38 [notice] 78#78: gracefully shutting down
+2024/07/08 10:21:38 [notice] 78#78: exiting
+2024/07/08 10:21:38 [notice] 77#77: gracefully shutting down
+2024/07/08 10:21:38 [notice] 77#77: exiting
+2024/07/08 10:21:38 [notice] 79#79: gracefully shutting down
+2024/07/08 10:21:38 [notice] 79#79: exiting
+2024/07/08 10:21:38 [notice] 76#76: gracefully shutting down
+2024/07/08 10:21:38 [notice] 78#78: exit
+2024/07/08 10:21:38 [notice] 77#77: exit
+2024/07/08 10:21:38 [notice] 79#79: exit
+2024/07/08 10:21:38 [notice] 76#76: exiting
+2024/07/08 10:21:38 [notice] 76#76: exit
+2024/07/08 10:21:38 [notice] 1#1: signal 17 (SIGCHLD) received from 78
+2024/07/08 10:21:38 [notice] 1#1: worker process 77 exited with code 0
+2024/07/08 10:21:38 [notice] 1#1: worker process 78 exited with code 0
+2024/07/08 10:21:38 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 10:21:38 [notice] 1#1: signal 17 (SIGCHLD) received from 79
+2024/07/08 10:21:38 [notice] 1#1: worker process 76 exited with code 0
+2024/07/08 10:21:38 [notice] 1#1: worker process 79 exited with code 0
+2024/07/08 10:21:38 [notice] 1#1: exit
+2024/07/08 10:21:55 [notice] 1#1: using the "epoll" event method
+2024/07/08 10:21:55 [notice] 1#1: nginx/1.27.0
+2024/07/08 10:21:55 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 10:21:55 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/08 10:21:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 10:21:55 [notice] 1#1: start worker processes
+2024/07/08 10:21:55 [notice] 1#1: start worker process 30
+2024/07/08 10:21:55 [notice] 1#1: start worker process 31
+2024/07/08 10:21:55 [notice] 1#1: start worker process 32
+2024/07/08 10:21:55 [notice] 1#1: start worker process 33
+2024/07/08 10:26:09 [notice] 45#45: signal process started
+2024/07/08 10:26:09 [notice] 1#1: signal 1 (SIGHUP) received from 45, reconfiguring
+2024/07/08 10:26:09 [notice] 1#1: reconfiguring
+2024/07/08 10:26:09 [notice] 1#1: using the "epoll" event method
+2024/07/08 10:26:09 [notice] 1#1: start worker processes
+2024/07/08 10:26:09 [notice] 1#1: start worker process 46
+2024/07/08 10:26:09 [notice] 1#1: start worker process 47
+2024/07/08 10:26:09 [notice] 1#1: start worker process 48
+2024/07/08 10:26:09 [notice] 1#1: start worker process 49
+2024/07/08 10:26:10 [notice] 30#30: gracefully shutting down
+2024/07/08 10:26:10 [notice] 31#31: gracefully shutting down
+2024/07/08 10:26:10 [notice] 33#33: gracefully shutting down
+2024/07/08 10:26:10 [notice] 33#33: exiting
+2024/07/08 10:26:10 [notice] 32#32: gracefully shutting down
+2024/07/08 10:26:10 [notice] 32#32: exiting
+2024/07/08 10:26:10 [notice] 30#30: exiting
+2024/07/08 10:26:10 [notice] 31#31: exiting
+2024/07/08 10:26:10 [notice] 33#33: exit
+2024/07/08 10:26:10 [notice] 32#32: exit
+2024/07/08 10:26:10 [notice] 30#30: exit
+2024/07/08 10:26:10 [notice] 31#31: exit
+2024/07/08 10:26:10 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/08 10:26:10 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 10:26:10 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 10:26:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 10:26:10 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/08 10:26:10 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 10:26:10 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 10:26:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 10:26:10 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/08 10:26:16 [error] 47#47: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8000"
+2024/07/08 10:26:18 [error] 47#47: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8000"
+2024/07/08 10:26:25 [error] 47#47: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8000"
+2024/07/08 20:11:21 [notice] 52#52: signal process started
+2024/07/08 20:11:21 [notice] 1#1: signal 1 (SIGHUP) received from 52, reconfiguring
+2024/07/08 20:11:21 [notice] 1#1: reconfiguring
+2024/07/08 20:11:21 [notice] 1#1: using the "epoll" event method
+2024/07/08 20:11:21 [notice] 1#1: start worker processes
+2024/07/08 20:11:21 [notice] 1#1: start worker process 53
+2024/07/08 20:11:21 [notice] 1#1: start worker process 54
+2024/07/08 20:11:21 [notice] 1#1: start worker process 55
+2024/07/08 20:11:21 [notice] 1#1: start worker process 56
+2024/07/08 20:11:21 [notice] 49#49: gracefully shutting down
+2024/07/08 20:11:21 [notice] 48#48: gracefully shutting down
+2024/07/08 20:11:21 [notice] 46#46: gracefully shutting down
+2024/07/08 20:11:21 [notice] 47#47: gracefully shutting down
+2024/07/08 20:11:21 [notice] 48#48: exiting
+2024/07/08 20:11:21 [notice] 46#46: exiting
+2024/07/08 20:11:21 [notice] 49#49: exiting
+2024/07/08 20:11:21 [notice] 48#48: exit
+2024/07/08 20:11:21 [notice] 46#46: exit
+2024/07/08 20:11:21 [notice] 49#49: exit
+2024/07/08 20:11:21 [notice] 47#47: exiting
+2024/07/08 20:11:21 [notice] 47#47: exit
+2024/07/08 20:11:21 [notice] 1#1: signal 17 (SIGCHLD) received from 49
+2024/07/08 20:11:21 [notice] 1#1: worker process 47 exited with code 0
+2024/07/08 20:11:21 [notice] 1#1: worker process 48 exited with code 0
+2024/07/08 20:11:21 [notice] 1#1: worker process 49 exited with code 0
+2024/07/08 20:11:21 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:11:21 [notice] 1#1: signal 17 (SIGCHLD) received from 48
+2024/07/08 20:11:21 [notice] 1#1: signal 17 (SIGCHLD) received from 46
+2024/07/08 20:11:21 [notice] 1#1: worker process 46 exited with code 0
+2024/07/08 20:11:21 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:14:14 [error] 54#54: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8000"
+2024/07/08 20:17:44 [notice] 57#57: signal process started
+2024/07/08 20:17:44 [notice] 1#1: signal 1 (SIGHUP) received from 57, reconfiguring
+2024/07/08 20:17:44 [notice] 1#1: reconfiguring
+2024/07/08 20:17:44 [notice] 1#1: using the "epoll" event method
+2024/07/08 20:17:44 [notice] 1#1: start worker processes
+2024/07/08 20:17:44 [notice] 1#1: start worker process 58
+2024/07/08 20:17:44 [notice] 1#1: start worker process 59
+2024/07/08 20:17:44 [notice] 1#1: start worker process 60
+2024/07/08 20:17:44 [notice] 1#1: start worker process 61
+2024/07/08 20:17:44 [notice] 53#53: gracefully shutting down
+2024/07/08 20:17:44 [notice] 54#54: gracefully shutting down
+2024/07/08 20:17:44 [notice] 55#55: gracefully shutting down
+2024/07/08 20:17:44 [notice] 56#56: gracefully shutting down
+2024/07/08 20:17:44 [notice] 53#53: exiting
+2024/07/08 20:17:44 [notice] 54#54: exiting
+2024/07/08 20:17:44 [notice] 55#55: exiting
+2024/07/08 20:17:44 [notice] 56#56: exiting
+2024/07/08 20:17:44 [notice] 53#53: exit
+2024/07/08 20:17:44 [notice] 54#54: exit
+2024/07/08 20:17:44 [notice] 55#55: exit
+2024/07/08 20:17:44 [notice] 56#56: exit
+2024/07/08 20:17:45 [notice] 1#1: signal 17 (SIGCHLD) received from 56
+2024/07/08 20:17:45 [notice] 1#1: worker process 55 exited with code 0
+2024/07/08 20:17:45 [notice] 1#1: worker process 56 exited with code 0
+2024/07/08 20:17:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:17:45 [notice] 1#1: signal 17 (SIGCHLD) received from 53
+2024/07/08 20:17:45 [notice] 1#1: worker process 53 exited with code 0
+2024/07/08 20:17:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:17:45 [notice] 1#1: signal 17 (SIGCHLD) received from 54
+2024/07/08 20:17:45 [notice] 1#1: worker process 54 exited with code 0
+2024/07/08 20:17:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:17:54 [error] 59#59: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8000"
+2024/07/08 20:26:17 [error] 60#60: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8000"
+2024/07/08 20:26:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 20:26:45 [notice] 59#59: gracefully shutting down
+2024/07/08 20:26:45 [notice] 59#59: exiting
+2024/07/08 20:26:45 [notice] 58#58: gracefully shutting down
+2024/07/08 20:26:45 [notice] 61#61: gracefully shutting down
+2024/07/08 20:26:45 [notice] 60#60: gracefully shutting down
+2024/07/08 20:26:45 [notice] 59#59: exit
+2024/07/08 20:26:45 [notice] 58#58: exiting
+2024/07/08 20:26:45 [notice] 58#58: exit
+2024/07/08 20:26:45 [notice] 60#60: exiting
+2024/07/08 20:26:45 [notice] 60#60: exit
+2024/07/08 20:26:45 [notice] 1#1: signal 17 (SIGCHLD) received from 59
+2024/07/08 20:26:45 [notice] 1#1: worker process 59 exited with code 0
+2024/07/08 20:26:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:26:45 [notice] 1#1: signal 17 (SIGCHLD) received from 58
+2024/07/08 20:26:45 [notice] 1#1: worker process 58 exited with code 0
+2024/07/08 20:26:45 [notice] 1#1: worker process 60 exited with code 0
+2024/07/08 20:26:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:26:45 [notice] 1#1: signal 17 (SIGCHLD) received from 60
+2024/07/08 20:31:53 [notice] 1#1: using the "epoll" event method
+2024/07/08 20:31:53 [notice] 1#1: nginx/1.27.0
+2024/07/08 20:31:53 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 20:31:53 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/08 20:31:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 20:31:53 [notice] 1#1: start worker processes
+2024/07/08 20:31:53 [notice] 1#1: start worker process 30
+2024/07/08 20:31:53 [notice] 1#1: start worker process 31
+2024/07/08 20:31:53 [notice] 1#1: start worker process 32
+2024/07/08 20:31:53 [notice] 1#1: start worker process 33
+2024/07/08 20:34:23 [notice] 54#54: signal process started
+2024/07/08 20:34:23 [notice] 1#1: signal 1 (SIGHUP) received from 54, reconfiguring
+2024/07/08 20:34:23 [notice] 1#1: reconfiguring
+2024/07/08 20:34:23 [notice] 1#1: using the "epoll" event method
+2024/07/08 20:34:23 [notice] 1#1: start worker processes
+2024/07/08 20:34:23 [notice] 1#1: start worker process 55
+2024/07/08 20:34:23 [notice] 1#1: start worker process 56
+2024/07/08 20:34:23 [notice] 1#1: start worker process 57
+2024/07/08 20:34:23 [notice] 1#1: start worker process 58
+2024/07/08 20:34:23 [notice] 30#30: gracefully shutting down
+2024/07/08 20:34:23 [notice] 31#31: gracefully shutting down
+2024/07/08 20:34:23 [notice] 32#32: gracefully shutting down
+2024/07/08 20:34:23 [notice] 33#33: gracefully shutting down
+2024/07/08 20:34:23 [notice] 30#30: exiting
+2024/07/08 20:34:23 [notice] 31#31: exiting
+2024/07/08 20:34:23 [notice] 32#32: exiting
+2024/07/08 20:34:23 [notice] 33#33: exiting
+2024/07/08 20:34:23 [notice] 30#30: exit
+2024/07/08 20:34:23 [notice] 31#31: exit
+2024/07/08 20:34:23 [notice] 32#32: exit
+2024/07/08 20:34:23 [notice] 33#33: exit
+2024/07/08 20:34:23 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/08 20:34:23 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 20:34:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:34:24 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/08 20:34:24 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 20:34:24 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 20:34:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:34:24 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/08 20:34:24 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 20:34:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:34:35 [error] 56#56: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8000"
+2024/07/08 20:34:43 [error] 58#58: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "127.0.0.1:8000"
+2024/07/08 20:45:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 20:45:01 [notice] 55#55: gracefully shutting down
+2024/07/08 20:45:01 [notice] 56#56: gracefully shutting down
+2024/07/08 20:45:01 [notice] 55#55: exiting
+2024/07/08 20:45:01 [notice] 57#57: gracefully shutting down
+2024/07/08 20:45:01 [notice] 58#58: gracefully shutting down
+2024/07/08 20:45:01 [notice] 56#56: exiting
+2024/07/08 20:45:01 [notice] 55#55: exit
+2024/07/08 20:45:01 [notice] 57#57: exiting
+2024/07/08 20:45:01 [notice] 58#58: exiting
+2024/07/08 20:45:01 [notice] 56#56: exit
+2024/07/08 20:45:01 [notice] 57#57: exit
+2024/07/08 20:45:01 [notice] 58#58: exit
+2024/07/08 20:45:01 [notice] 1#1: signal 17 (SIGCHLD) received from 58
+2024/07/08 20:45:01 [notice] 1#1: worker process 55 exited with code 0
+2024/07/08 20:45:01 [notice] 1#1: worker process 56 exited with code 0
+2024/07/08 20:45:01 [notice] 1#1: worker process 58 exited with code 0
+2024/07/08 20:45:01 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:45:01 [notice] 1#1: signal 17 (SIGCHLD) received from 55
+2024/07/08 20:45:01 [notice] 1#1: signal 17 (SIGCHLD) received from 57
+2024/07/08 20:45:01 [notice] 1#1: worker process 57 exited with code 0
+2024/07/08 20:45:01 [notice] 1#1: exit
+2024/07/08 20:45:15 [notice] 1#1: using the "epoll" event method
+2024/07/08 20:45:15 [notice] 1#1: nginx/1.27.0
+2024/07/08 20:45:15 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 20:45:15 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/08 20:45:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 20:45:15 [notice] 1#1: start worker processes
+2024/07/08 20:45:15 [notice] 1#1: start worker process 30
+2024/07/08 20:45:15 [notice] 1#1: start worker process 31
+2024/07/08 20:45:15 [notice] 1#1: start worker process 32
+2024/07/08 20:45:15 [notice] 1#1: start worker process 33
+2024/07/08 20:51:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 20:51:24 [notice] 30#30: gracefully shutting down
+2024/07/08 20:51:24 [notice] 30#30: exiting
+2024/07/08 20:51:24 [notice] 31#31: gracefully shutting down
+2024/07/08 20:51:24 [notice] 31#31: exiting
+2024/07/08 20:51:24 [notice] 32#32: gracefully shutting down
+2024/07/08 20:51:24 [notice] 32#32: exiting
+2024/07/08 20:51:24 [notice] 33#33: gracefully shutting down
+2024/07/08 20:51:24 [notice] 30#30: exit
+2024/07/08 20:51:24 [notice] 31#31: exit
+2024/07/08 20:51:24 [notice] 32#32: exit
+2024/07/08 20:51:24 [notice] 33#33: exiting
+2024/07/08 20:51:24 [notice] 33#33: exit
+2024/07/08 20:51:24 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/08 20:51:24 [notice] 1#1: worker process 30 exited with code 0
+2024/07/08 20:51:24 [notice] 1#1: worker process 32 exited with code 0
+2024/07/08 20:51:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:51:24 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/08 20:51:24 [notice] 1#1: worker process 33 exited with code 0
+2024/07/08 20:51:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 20:51:24 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/08 20:51:24 [notice] 1#1: worker process 31 exited with code 0
+2024/07/08 20:51:24 [notice] 1#1: exit
+2024/07/08 21:13:05 [notice] 1#1: using the "epoll" event method
+2024/07/08 21:13:05 [notice] 1#1: nginx/1.27.0
+2024/07/08 21:13:05 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 21:13:05 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/08 21:13:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 21:13:05 [notice] 1#1: start worker processes
+2024/07/08 21:13:05 [notice] 1#1: start worker process 29
+2024/07/08 21:13:05 [notice] 1#1: start worker process 30
+2024/07/08 21:13:05 [notice] 1#1: start worker process 31
+2024/07/08 21:13:05 [notice] 1#1: start worker process 32
+2024/07/08 21:52:59 [crit] 30#30: *2 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/08 21:53:00 [crit] 30#30: *2 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/08 21:53:11 [crit] 30#30: *2 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/08 21:53:12 [crit] 30#30: *2 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:00:16 [notice] 1#1: using the "epoll" event method
+2024/07/09 02:00:16 [notice] 1#1: nginx/1.27.0
+2024/07/09 02:00:16 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 02:00:16 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 02:00:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 02:00:16 [notice] 1#1: start worker processes
+2024/07/09 02:00:16 [notice] 1#1: start worker process 29
+2024/07/09 02:00:16 [notice] 1#1: start worker process 30
+2024/07/09 02:00:16 [notice] 1#1: start worker process 31
+2024/07/09 02:00:16 [notice] 1#1: start worker process 32
+2024/07/09 02:03:03 [crit] 30#30: *2 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:03:24 [crit] 32#32: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:03:24 [crit] 32#32: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:03:25 [crit] 32#32: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:03:26 [crit] 32#32: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:25:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 02:25:16 [notice] 29#29: gracefully shutting down
+2024/07/09 02:25:16 [notice] 30#30: gracefully shutting down
+2024/07/09 02:25:16 [notice] 30#30: exiting
+2024/07/09 02:25:16 [notice] 31#31: gracefully shutting down
+2024/07/09 02:25:16 [notice] 31#31: exiting
+2024/07/09 02:25:16 [notice] 32#32: gracefully shutting down
+2024/07/09 02:25:16 [notice] 29#29: exiting
+2024/07/09 02:25:16 [notice] 31#31: exit
+2024/07/09 02:25:16 [notice] 32#32: exiting
+2024/07/09 02:25:16 [notice] 30#30: exit
+2024/07/09 02:25:16 [notice] 29#29: exit
+2024/07/09 02:25:16 [notice] 32#32: exit
+2024/07/09 02:25:16 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/09 02:25:16 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 02:25:16 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 02:25:16 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/09 02:25:16 [notice] 1#1: worker process 29 exited with code 0
+2024/07/09 02:25:16 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 02:25:16 [notice] 1#1: worker process 32 exited with code 0
+2024/07/09 02:25:16 [notice] 1#1: exit
+2024/07/09 02:28:09 [notice] 1#1: using the "epoll" event method
+2024/07/09 02:28:09 [notice] 1#1: nginx/1.27.0
+2024/07/09 02:28:09 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 02:28:09 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 02:28:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 02:28:09 [notice] 1#1: start worker processes
+2024/07/09 02:28:09 [notice] 1#1: start worker process 29
+2024/07/09 02:28:09 [notice] 1#1: start worker process 30
+2024/07/09 02:28:09 [notice] 1#1: start worker process 31
+2024/07/09 02:28:09 [notice] 1#1: start worker process 32
+2024/07/09 02:28:39 [crit] 29#29: *1 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:28:40 [crit] 29#29: *1 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:28:41 [crit] 31#31: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:28:42 [crit] 31#31: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:28:42 [crit] 31#31: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:28:43 [crit] 31#31: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:28:43 [crit] 31#31: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:28:44 [crit] 31#31: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:37:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 02:37:04 [notice] 29#29: gracefully shutting down
+2024/07/09 02:37:04 [notice] 29#29: exiting
+2024/07/09 02:37:04 [notice] 30#30: gracefully shutting down
+2024/07/09 02:37:04 [notice] 30#30: exiting
+2024/07/09 02:37:04 [notice] 31#31: gracefully shutting down
+2024/07/09 02:37:04 [notice] 32#32: gracefully shutting down
+2024/07/09 02:37:04 [notice] 32#32: exiting
+2024/07/09 02:37:04 [notice] 29#29: exit
+2024/07/09 02:37:04 [notice] 30#30: exit
+2024/07/09 02:37:04 [notice] 31#31: exiting
+2024/07/09 02:37:04 [notice] 32#32: exit
+2024/07/09 02:37:04 [notice] 31#31: exit
+2024/07/09 02:37:04 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/07/09 02:37:04 [notice] 1#1: worker process 29 exited with code 0
+2024/07/09 02:37:04 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 02:37:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 02:37:04 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/09 02:37:04 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 02:37:04 [notice] 1#1: worker process 32 exited with code 0
+2024/07/09 02:37:04 [notice] 1#1: exit
+2024/07/09 02:37:22 [notice] 1#1: using the "epoll" event method
+2024/07/09 02:37:22 [notice] 1#1: nginx/1.27.0
+2024/07/09 02:37:22 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 02:37:22 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 02:37:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 02:37:22 [notice] 1#1: start worker processes
+2024/07/09 02:37:22 [notice] 1#1: start worker process 29
+2024/07/09 02:37:22 [notice] 1#1: start worker process 30
+2024/07/09 02:37:22 [notice] 1#1: start worker process 31
+2024/07/09 02:37:22 [notice] 1#1: start worker process 32
+2024/07/09 02:40:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 02:40:06 [notice] 29#29: gracefully shutting down
+2024/07/09 02:40:06 [notice] 29#29: exiting
+2024/07/09 02:40:06 [notice] 30#30: gracefully shutting down
+2024/07/09 02:40:06 [notice] 30#30: exiting
+2024/07/09 02:40:06 [notice] 31#31: gracefully shutting down
+2024/07/09 02:40:06 [notice] 31#31: exiting
+2024/07/09 02:40:06 [notice] 32#32: gracefully shutting down
+2024/07/09 02:40:06 [notice] 29#29: exit
+2024/07/09 02:40:06 [notice] 30#30: exit
+2024/07/09 02:40:06 [notice] 31#31: exit
+2024/07/09 02:40:06 [notice] 32#32: exiting
+2024/07/09 02:40:06 [notice] 32#32: exit
+2024/07/09 02:40:06 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/07/09 02:40:06 [notice] 1#1: worker process 29 exited with code 0
+2024/07/09 02:40:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 02:40:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/09 02:40:06 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 02:40:06 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 02:40:06 [notice] 1#1: worker process 32 exited with code 0
+2024/07/09 02:40:06 [notice] 1#1: exit
+2024/07/09 02:40:28 [notice] 1#1: using the "epoll" event method
+2024/07/09 02:40:28 [notice] 1#1: nginx/1.27.0
+2024/07/09 02:40:28 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 02:40:28 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 02:40:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 02:40:28 [notice] 1#1: start worker processes
+2024/07/09 02:40:28 [notice] 1#1: start worker process 30
+2024/07/09 02:40:28 [notice] 1#1: start worker process 31
+2024/07/09 02:40:28 [notice] 1#1: start worker process 32
+2024/07/09 02:40:28 [notice] 1#1: start worker process 33
+2024/07/09 02:41:37 [crit] 30#30: *1 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:41:38 [crit] 30#30: *1 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:41:40 [crit] 30#30: *1 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:41:41 [crit] 30#30: *1 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.21.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:43:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 02:43:50 [notice] 31#31: gracefully shutting down
+2024/07/09 02:43:50 [notice] 30#30: gracefully shutting down
+2024/07/09 02:43:50 [notice] 32#32: gracefully shutting down
+2024/07/09 02:43:50 [notice] 33#33: gracefully shutting down
+2024/07/09 02:43:50 [notice] 31#31: exiting
+2024/07/09 02:43:50 [notice] 30#30: exiting
+2024/07/09 02:43:50 [notice] 32#32: exiting
+2024/07/09 02:43:50 [notice] 33#33: exiting
+2024/07/09 02:43:50 [notice] 31#31: exit
+2024/07/09 02:43:50 [notice] 30#30: exit
+2024/07/09 02:43:50 [notice] 32#32: exit
+2024/07/09 02:43:50 [notice] 33#33: exit
+2024/07/09 02:43:50 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/09 02:43:50 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 02:43:50 [notice] 1#1: worker process 32 exited with code 0
+2024/07/09 02:43:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 02:43:50 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/09 02:43:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/09 02:43:50 [notice] 1#1: worker process 33 exited with code 0
+2024/07/09 02:43:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 02:43:50 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/09 02:43:50 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 02:43:50 [notice] 1#1: exit
+2024/07/09 02:46:03 [notice] 1#1: using the "epoll" event method
+2024/07/09 02:46:03 [notice] 1#1: nginx/1.27.0
+2024/07/09 02:46:03 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 02:46:03 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 02:46:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 02:46:03 [notice] 1#1: start worker processes
+2024/07/09 02:46:03 [notice] 1#1: start worker process 29
+2024/07/09 02:46:03 [notice] 1#1: start worker process 30
+2024/07/09 02:46:03 [notice] 1#1: start worker process 31
+2024/07/09 02:46:03 [notice] 1#1: start worker process 32
+2024/07/09 02:46:09 [crit] 29#29: *1 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:46:10 [crit] 29#29: *1 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:49:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 02:49:58 [notice] 29#29: gracefully shutting down
+2024/07/09 02:49:58 [notice] 31#31: gracefully shutting down
+2024/07/09 02:49:58 [notice] 31#31: exiting
+2024/07/09 02:49:58 [notice] 32#32: gracefully shutting down
+2024/07/09 02:49:58 [notice] 30#30: gracefully shutting down
+2024/07/09 02:49:58 [notice] 30#30: exiting
+2024/07/09 02:49:58 [notice] 29#29: exiting
+2024/07/09 02:49:58 [notice] 29#29: exit
+2024/07/09 02:49:58 [notice] 31#31: exit
+2024/07/09 02:49:58 [notice] 32#32: exiting
+2024/07/09 02:49:58 [notice] 30#30: exit
+2024/07/09 02:49:58 [notice] 32#32: exit
+2024/07/09 02:49:58 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/07/09 02:49:58 [notice] 1#1: worker process 29 exited with code 0
+2024/07/09 02:49:58 [notice] 1#1: worker process 32 exited with code 0
+2024/07/09 02:49:58 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 02:49:58 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/09 02:49:58 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 02:49:58 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 02:49:58 [notice] 1#1: exit
+2024/07/09 02:49:58 [notice] 1#1: using the "epoll" event method
+2024/07/09 02:49:58 [notice] 1#1: nginx/1.27.0
+2024/07/09 02:49:58 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 02:49:58 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 02:49:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 02:49:58 [notice] 1#1: start worker processes
+2024/07/09 02:49:58 [notice] 1#1: start worker process 29
+2024/07/09 02:49:58 [notice] 1#1: start worker process 30
+2024/07/09 02:49:58 [notice] 1#1: start worker process 31
+2024/07/09 02:49:58 [notice] 1#1: start worker process 32
+2024/07/09 02:50:06 [crit] 29#29: *1 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:50:07 [crit] 29#29: *1 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:55:53 [crit] 31#31: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 02:55:53 [crit] 31#31: *5 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 02:56:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 02:56:30 [notice] 29#29: gracefully shutting down
+2024/07/09 02:56:30 [notice] 29#29: exiting
+2024/07/09 02:56:30 [notice] 30#30: gracefully shutting down
+2024/07/09 02:56:30 [notice] 29#29: exit
+2024/07/09 02:56:30 [notice] 31#31: gracefully shutting down
+2024/07/09 02:56:30 [notice] 32#32: gracefully shutting down
+2024/07/09 02:56:30 [notice] 30#30: exiting
+2024/07/09 02:56:30 [notice] 31#31: exiting
+2024/07/09 02:56:30 [notice] 30#30: exit
+2024/07/09 02:56:30 [notice] 31#31: exit
+2024/07/09 02:56:30 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/07/09 02:56:30 [notice] 1#1: worker process 29 exited with code 0
+2024/07/09 02:56:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 02:56:30 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/09 02:56:30 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 02:56:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 02:56:30 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/09 02:56:30 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 02:56:30 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 03:02:34 [notice] 1#1: using the "epoll" event method
+2024/07/09 03:02:34 [notice] 1#1: nginx/1.27.0
+2024/07/09 03:02:34 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 03:02:34 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 03:02:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 03:02:34 [notice] 1#1: start worker processes
+2024/07/09 03:02:34 [notice] 1#1: start worker process 29
+2024/07/09 03:02:34 [notice] 1#1: start worker process 30
+2024/07/09 03:02:34 [notice] 1#1: start worker process 31
+2024/07/09 03:02:34 [notice] 1#1: start worker process 32
+2024/07/09 03:07:01 [crit] 30#30: *2 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 03:07:03 [crit] 30#30: *2 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 03:07:06 [crit] 30#30: *2 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 03:07:07 [crit] 30#30: *2 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 20:46:54 [crit] 31#31: *7 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 20:46:55 [crit] 31#31: *7 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 20:46:56 [crit] 31#31: *7 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000"
+2024/07/09 20:46:57 [crit] 31#31: *7 connect() to unix:/var/run/php-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 172.23.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm.sock:", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 20:48:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 20:48:07 [notice] 31#31: gracefully shutting down
+2024/07/09 20:48:07 [notice] 31#31: exiting
+2024/07/09 20:48:07 [notice] 29#29: gracefully shutting down
+2024/07/09 20:48:07 [notice] 30#30: gracefully shutting down
+2024/07/09 20:48:07 [notice] 32#32: gracefully shutting down
+2024/07/09 20:48:07 [notice] 31#31: exit
+2024/07/09 20:48:07 [notice] 29#29: exiting
+2024/07/09 20:48:07 [notice] 30#30: exiting
+2024/07/09 20:48:07 [notice] 32#32: exiting
+2024/07/09 20:48:07 [notice] 29#29: exit
+2024/07/09 20:48:07 [notice] 30#30: exit
+2024/07/09 20:48:07 [notice] 32#32: exit
+2024/07/09 20:48:07 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/09 20:48:07 [notice] 1#1: worker process 32 exited with code 0
+2024/07/09 20:48:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 20:48:08 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/09 20:48:08 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 20:48:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 20:48:08 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/07/09 20:48:08 [notice] 1#1: worker process 29 exited with code 0
+2024/07/09 20:48:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 20:48:08 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/09 20:48:08 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 20:48:08 [notice] 1#1: exit
+2024/07/09 21:10:37 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/09 21:10:37 [notice] 1#1: using the "epoll" event method
+2024/07/09 21:10:37 [notice] 1#1: nginx/1.27.0
+2024/07/09 21:10:37 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 21:10:37 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 21:10:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 21:10:37 [notice] 1#1: start worker processes
+2024/07/09 21:10:37 [notice] 1#1: start worker process 30
+2024/07/09 21:10:37 [notice] 1#1: start worker process 31
+2024/07/09 21:10:37 [notice] 1#1: start worker process 32
+2024/07/09 21:10:37 [notice] 1#1: start worker process 33
+2024/07/09 21:11:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 21:11:32 [notice] 31#31: gracefully shutting down
+2024/07/09 21:11:32 [notice] 30#30: gracefully shutting down
+2024/07/09 21:11:32 [notice] 32#32: gracefully shutting down
+2024/07/09 21:11:32 [notice] 33#33: gracefully shutting down
+2024/07/09 21:11:32 [notice] 33#33: exiting
+2024/07/09 21:11:32 [notice] 31#31: exiting
+2024/07/09 21:11:32 [notice] 31#31: exit
+2024/07/09 21:11:32 [notice] 30#30: exiting
+2024/07/09 21:11:32 [notice] 32#32: exiting
+2024/07/09 21:11:32 [notice] 33#33: exit
+2024/07/09 21:11:32 [notice] 30#30: exit
+2024/07/09 21:11:32 [notice] 32#32: exit
+2024/07/09 21:11:33 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/09 21:11:33 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 21:11:33 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 21:11:33 [notice] 1#1: worker process 32 exited with code 0
+2024/07/09 21:11:33 [notice] 1#1: worker process 33 exited with code 0
+2024/07/09 21:11:33 [notice] 1#1: exit
+2024/07/09 21:13:56 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/09 21:13:56 [notice] 1#1: using the "epoll" event method
+2024/07/09 21:13:56 [notice] 1#1: nginx/1.27.0
+2024/07/09 21:13:56 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 21:13:56 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 21:13:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 21:13:56 [notice] 1#1: start worker processes
+2024/07/09 21:13:56 [notice] 1#1: start worker process 30
+2024/07/09 21:13:56 [notice] 1#1: start worker process 31
+2024/07/09 21:13:56 [notice] 1#1: start worker process 32
+2024/07/09 21:13:56 [notice] 1#1: start worker process 33
+2024/07/09 21:14:28 [error] 30#30: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.29.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8000", referrer: "http://127.0.0.1:8000/"
+2024/07/09 21:15:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 21:15:39 [notice] 31#31: gracefully shutting down
+2024/07/09 21:15:39 [notice] 30#30: gracefully shutting down
+2024/07/09 21:15:39 [notice] 32#32: gracefully shutting down
+2024/07/09 21:15:39 [notice] 33#33: gracefully shutting down
+2024/07/09 21:15:39 [notice] 33#33: exiting
+2024/07/09 21:15:39 [notice] 31#31: exiting
+2024/07/09 21:15:39 [notice] 30#30: exiting
+2024/07/09 21:15:39 [notice] 31#31: exit
+2024/07/09 21:15:39 [notice] 32#32: exiting
+2024/07/09 21:15:39 [notice] 33#33: exit
+2024/07/09 21:15:39 [notice] 30#30: exit
+2024/07/09 21:15:39 [notice] 32#32: exit
+2024/07/09 21:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/09 21:15:39 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 21:15:39 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 21:15:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 21:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/09 21:15:39 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/09 21:15:39 [notice] 1#1: worker process 32 exited with code 0
+2024/07/09 21:15:39 [notice] 1#1: worker process 33 exited with code 0
+2024/07/09 21:15:39 [notice] 1#1: exit
+2024/07/09 21:17:54 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/09 21:17:54 [notice] 1#1: using the "epoll" event method
+2024/07/09 21:17:54 [notice] 1#1: nginx/1.27.0
+2024/07/09 21:17:54 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 21:17:54 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 21:17:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 21:17:54 [notice] 1#1: start worker processes
+2024/07/09 21:17:54 [notice] 1#1: start worker process 30
+2024/07/09 21:17:54 [notice] 1#1: start worker process 31
+2024/07/09 21:17:54 [notice] 1#1: start worker process 32
+2024/07/09 21:17:54 [notice] 1#1: start worker process 33
+2024/07/09 21:19:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 21:19:18 [notice] 32#32: gracefully shutting down
+2024/07/09 21:19:18 [notice] 33#33: gracefully shutting down
+2024/07/09 21:19:18 [notice] 30#30: gracefully shutting down
+2024/07/09 21:19:18 [notice] 31#31: gracefully shutting down
+2024/07/09 21:19:18 [notice] 31#31: exiting
+2024/07/09 21:19:18 [notice] 32#32: exiting
+2024/07/09 21:19:18 [notice] 33#33: exiting
+2024/07/09 21:19:18 [notice] 30#30: exiting
+2024/07/09 21:19:18 [notice] 31#31: exit
+2024/07/09 21:19:18 [notice] 30#30: exit
+2024/07/09 21:19:18 [notice] 32#32: exit
+2024/07/09 21:19:18 [notice] 33#33: exit
+2024/07/09 21:19:18 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/09 21:19:18 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 21:19:18 [notice] 1#1: worker process 32 exited with code 0
+2024/07/09 21:19:18 [notice] 1#1: worker process 33 exited with code 0
+2024/07/09 21:19:18 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 21:19:18 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/09 21:19:18 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 21:19:18 [notice] 1#1: exit
+2024/07/09 21:22:40 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/09 21:22:40 [notice] 1#1: using the "epoll" event method
+2024/07/09 21:22:40 [notice] 1#1: nginx/1.27.0
+2024/07/09 21:22:40 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 21:22:40 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 21:22:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 21:22:40 [notice] 1#1: start worker processes
+2024/07/09 21:22:40 [notice] 1#1: start worker process 30
+2024/07/09 21:22:40 [notice] 1#1: start worker process 31
+2024/07/09 21:22:40 [notice] 1#1: start worker process 32
+2024/07/09 21:22:40 [notice] 1#1: start worker process 33
+2024/07/09 21:25:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/09 21:25:09 [notice] 30#30: gracefully shutting down
+2024/07/09 21:25:09 [notice] 31#31: gracefully shutting down
+2024/07/09 21:25:09 [notice] 32#32: gracefully shutting down
+2024/07/09 21:25:09 [notice] 32#32: exiting
+2024/07/09 21:25:09 [notice] 30#30: exiting
+2024/07/09 21:25:09 [notice] 33#33: gracefully shutting down
+2024/07/09 21:25:09 [notice] 31#31: exiting
+2024/07/09 21:25:09 [notice] 32#32: exit
+2024/07/09 21:25:09 [notice] 30#30: exit
+2024/07/09 21:25:09 [notice] 33#33: exiting
+2024/07/09 21:25:09 [notice] 31#31: exit
+2024/07/09 21:25:09 [notice] 33#33: exit
+2024/07/09 21:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/09 21:25:09 [notice] 1#1: worker process 32 exited with code 0
+2024/07/09 21:25:09 [notice] 1#1: worker process 33 exited with code 0
+2024/07/09 21:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 21:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/09 21:25:09 [notice] 1#1: worker process 30 exited with code 0
+2024/07/09 21:25:09 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/09 21:25:09 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/09 21:25:09 [notice] 1#1: worker process 31 exited with code 0
+2024/07/09 21:25:09 [notice] 1#1: exit
+2024/07/09 21:25:29 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/09 21:25:29 [notice] 1#1: using the "epoll" event method
+2024/07/09 21:25:29 [notice] 1#1: nginx/1.27.0
+2024/07/09 21:25:29 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/09 21:25:29 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/09 21:25:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/09 21:25:29 [notice] 1#1: start worker processes
+2024/07/09 21:25:29 [notice] 1#1: start worker process 31
+2024/07/09 21:25:29 [notice] 1#1: start worker process 32
+2024/07/09 21:25:29 [notice] 1#1: start worker process 33
+2024/07/09 21:25:29 [notice] 1#1: start worker process 34
+2024/07/10 02:08:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/10 02:08:12 [notice] 31#31: gracefully shutting down
+2024/07/10 02:08:12 [notice] 31#31: exiting
+2024/07/10 02:08:12 [notice] 32#32: gracefully shutting down
+2024/07/10 02:08:12 [notice] 32#32: exiting
+2024/07/10 02:08:12 [notice] 33#33: gracefully shutting down
+2024/07/10 02:08:12 [notice] 33#33: exiting
+2024/07/10 02:08:12 [notice] 34#34: gracefully shutting down
+2024/07/10 02:08:12 [notice] 31#31: exit
+2024/07/10 02:08:12 [notice] 32#32: exit
+2024/07/10 02:08:12 [notice] 33#33: exit
+2024/07/10 02:08:12 [notice] 34#34: exiting
+2024/07/10 02:08:12 [notice] 34#34: exit
+2024/07/10 02:08:13 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/10 02:08:13 [notice] 1#1: worker process 31 exited with code 0
+2024/07/10 02:08:13 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 02:08:13 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/10 02:08:13 [notice] 1#1: worker process 32 exited with code 0
+2024/07/10 02:08:13 [notice] 1#1: worker process 34 exited with code 0
+2024/07/10 02:08:13 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 02:08:13 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/10 02:08:13 [notice] 1#1: worker process 33 exited with code 0
+2024/07/10 02:08:13 [notice] 1#1: exit
+2024/07/10 02:13:35 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/10 02:13:35 [notice] 1#1: using the "epoll" event method
+2024/07/10 02:13:35 [notice] 1#1: nginx/1.27.0
+2024/07/10 02:13:35 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/10 02:13:35 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/10 02:13:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/10 02:13:35 [notice] 1#1: start worker processes
+2024/07/10 02:13:35 [notice] 1#1: start worker process 31
+2024/07/10 02:13:35 [notice] 1#1: start worker process 32
+2024/07/10 02:13:35 [notice] 1#1: start worker process 33
+2024/07/10 02:13:35 [notice] 1#1: start worker process 34
+2024/07/10 02:30:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/10 02:30:16 [notice] 31#31: gracefully shutting down
+2024/07/10 02:30:16 [notice] 32#32: gracefully shutting down
+2024/07/10 02:30:16 [notice] 34#34: gracefully shutting down
+2024/07/10 02:30:16 [notice] 34#34: exiting
+2024/07/10 02:30:16 [notice] 33#33: gracefully shutting down
+2024/07/10 02:30:16 [notice] 31#31: exiting
+2024/07/10 02:30:16 [notice] 32#32: exiting
+2024/07/10 02:30:16 [notice] 32#32: exit
+2024/07/10 02:30:16 [notice] 34#34: exit
+2024/07/10 02:30:16 [notice] 33#33: exiting
+2024/07/10 02:30:16 [notice] 31#31: exit
+2024/07/10 02:30:16 [notice] 33#33: exit
+2024/07/10 02:30:16 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/10 02:30:16 [notice] 1#1: worker process 33 exited with code 0
+2024/07/10 02:30:16 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 02:30:16 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/10 02:30:16 [notice] 1#1: worker process 31 exited with code 0
+2024/07/10 02:30:16 [notice] 1#1: worker process 32 exited with code 0
+2024/07/10 02:30:16 [notice] 1#1: worker process 34 exited with code 0
+2024/07/10 02:30:16 [notice] 1#1: exit
+2024/07/10 02:35:16 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/10 02:35:16 [notice] 1#1: using the "epoll" event method
+2024/07/10 02:35:16 [notice] 1#1: nginx/1.27.0
+2024/07/10 02:35:16 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/10 02:35:16 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/10 02:35:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/10 02:35:16 [notice] 1#1: start worker processes
+2024/07/10 02:35:16 [notice] 1#1: start worker process 31
+2024/07/10 02:35:16 [notice] 1#1: start worker process 32
+2024/07/10 02:35:16 [notice] 1#1: start worker process 33
+2024/07/10 02:35:16 [notice] 1#1: start worker process 34
+2024/07/10 02:46:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/10 02:46:53 [notice] 31#31: gracefully shutting down
+2024/07/10 02:46:53 [notice] 31#31: exiting
+2024/07/10 02:46:53 [notice] 32#32: gracefully shutting down
+2024/07/10 02:46:53 [notice] 33#33: gracefully shutting down
+2024/07/10 02:46:53 [notice] 34#34: gracefully shutting down
+2024/07/10 02:46:53 [notice] 34#34: exiting
+2024/07/10 02:46:53 [notice] 31#31: exit
+2024/07/10 02:46:53 [notice] 34#34: exit
+2024/07/10 02:46:53 [notice] 32#32: exiting
+2024/07/10 02:46:53 [notice] 33#33: exiting
+2024/07/10 02:46:53 [notice] 33#33: exit
+2024/07/10 02:46:53 [notice] 32#32: exit
+2024/07/10 02:46:53 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/10 02:46:53 [notice] 1#1: worker process 31 exited with code 0
+2024/07/10 02:46:53 [notice] 1#1: worker process 34 exited with code 0
+2024/07/10 02:46:53 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 02:46:53 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/10 02:46:53 [notice] 1#1: worker process 33 exited with code 0
+2024/07/10 02:46:53 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 02:46:53 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/10 02:46:53 [notice] 1#1: worker process 32 exited with code 0
+2024/07/10 02:46:53 [notice] 1#1: exit
+2024/07/10 02:51:15 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/10 02:51:15 [notice] 1#1: using the "epoll" event method
+2024/07/10 02:51:15 [notice] 1#1: nginx/1.27.0
+2024/07/10 02:51:15 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/10 02:51:15 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/10 02:51:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/10 02:51:15 [notice] 1#1: start worker processes
+2024/07/10 02:51:15 [notice] 1#1: start worker process 30
+2024/07/10 02:51:15 [notice] 1#1: start worker process 31
+2024/07/10 02:51:15 [notice] 1#1: start worker process 32
+2024/07/10 02:51:15 [notice] 1#1: start worker process 33
+2024/07/10 02:57:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/10 02:57:13 [notice] 30#30: gracefully shutting down
+2024/07/10 02:57:13 [notice] 33#33: gracefully shutting down
+2024/07/10 02:57:13 [notice] 32#32: gracefully shutting down
+2024/07/10 02:57:13 [notice] 31#31: gracefully shutting down
+2024/07/10 02:57:13 [notice] 30#30: exiting
+2024/07/10 02:57:13 [notice] 33#33: exiting
+2024/07/10 02:57:13 [notice] 32#32: exiting
+2024/07/10 02:57:13 [notice] 31#31: exiting
+2024/07/10 02:57:13 [notice] 30#30: exit
+2024/07/10 02:57:13 [notice] 33#33: exit
+2024/07/10 02:57:13 [notice] 32#32: exit
+2024/07/10 02:57:13 [notice] 31#31: exit
+2024/07/10 02:57:13 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/10 02:57:13 [notice] 1#1: worker process 30 exited with code 0
+2024/07/10 02:57:13 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 02:57:13 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/10 02:57:13 [notice] 1#1: worker process 31 exited with code 0
+2024/07/10 02:57:13 [notice] 1#1: worker process 33 exited with code 0
+2024/07/10 02:57:13 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 02:57:13 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/10 02:57:13 [notice] 1#1: worker process 32 exited with code 0
+2024/07/10 02:57:13 [notice] 1#1: exit
+2024/07/10 03:02:41 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/10 03:02:41 [notice] 1#1: using the "epoll" event method
+2024/07/10 03:02:41 [notice] 1#1: nginx/1.27.0
+2024/07/10 03:02:41 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/10 03:02:41 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/10 03:02:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/10 03:02:41 [notice] 1#1: start worker processes
+2024/07/10 03:02:41 [notice] 1#1: start worker process 30
+2024/07/10 03:02:41 [notice] 1#1: start worker process 31
+2024/07/10 03:02:41 [notice] 1#1: start worker process 32
+2024/07/10 03:02:41 [notice] 1#1: start worker process 33
+2024/07/10 03:05:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/10 03:05:54 [notice] 30#30: gracefully shutting down
+2024/07/10 03:05:54 [notice] 32#32: gracefully shutting down
+2024/07/10 03:05:54 [notice] 33#33: gracefully shutting down
+2024/07/10 03:05:54 [notice] 31#31: gracefully shutting down
+2024/07/10 03:05:54 [notice] 30#30: exiting
+2024/07/10 03:05:54 [notice] 32#32: exiting
+2024/07/10 03:05:54 [notice] 33#33: exiting
+2024/07/10 03:05:54 [notice] 31#31: exiting
+2024/07/10 03:05:54 [notice] 30#30: exit
+2024/07/10 03:05:54 [notice] 31#31: exit
+2024/07/10 03:05:54 [notice] 32#32: exit
+2024/07/10 03:05:54 [notice] 33#33: exit
+2024/07/10 03:05:55 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/10 03:05:55 [notice] 1#1: worker process 30 exited with code 0
+2024/07/10 03:05:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 03:05:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/10 03:05:55 [notice] 1#1: worker process 31 exited with code 0
+2024/07/10 03:05:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 03:05:55 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/07/10 03:05:55 [notice] 1#1: worker process 33 exited with code 0
+2024/07/10 03:05:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 03:05:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/10 03:05:55 [notice] 1#1: worker process 32 exited with code 0
+2024/07/10 03:05:55 [notice] 1#1: exit
+2024/07/10 03:06:14 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/10 03:06:14 [notice] 1#1: using the "epoll" event method
+2024/07/10 03:06:14 [notice] 1#1: nginx/1.27.0
+2024/07/10 03:06:14 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/10 03:06:14 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/10 03:06:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/10 03:06:14 [notice] 1#1: start worker processes
+2024/07/10 03:06:14 [notice] 1#1: start worker process 30
+2024/07/10 03:06:14 [notice] 1#1: start worker process 31
+2024/07/10 03:06:14 [notice] 1#1: start worker process 32
+2024/07/10 03:06:14 [notice] 1#1: start worker process 33
+2024/07/10 03:07:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/10 03:07:50 [notice] 30#30: gracefully shutting down
+2024/07/10 03:07:50 [notice] 31#31: gracefully shutting down
+2024/07/10 03:07:50 [notice] 33#33: gracefully shutting down
+2024/07/10 03:07:50 [notice] 32#32: gracefully shutting down
+2024/07/10 03:07:50 [notice] 30#30: exiting
+2024/07/10 03:07:50 [notice] 31#31: exiting
+2024/07/10 03:07:50 [notice] 33#33: exiting
+2024/07/10 03:07:50 [notice] 32#32: exiting
+2024/07/10 03:07:50 [notice] 30#30: exit
+2024/07/10 03:07:50 [notice] 31#31: exit
+2024/07/10 03:07:50 [notice] 33#33: exit
+2024/07/10 03:07:50 [notice] 32#32: exit
+2024/07/10 03:07:50 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/10 03:07:50 [notice] 1#1: worker process 31 exited with code 0
+2024/07/10 03:07:50 [notice] 1#1: worker process 32 exited with code 0
+2024/07/10 03:07:50 [notice] 1#1: worker process 33 exited with code 0
+2024/07/10 03:07:50 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 03:07:50 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/10 03:07:50 [notice] 1#1: worker process 30 exited with code 0
+2024/07/10 03:07:50 [notice] 1#1: exit
+2024/07/10 03:11:52 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/10 03:11:52 [notice] 1#1: using the "epoll" event method
+2024/07/10 03:11:52 [notice] 1#1: nginx/1.27.0
+2024/07/10 03:11:52 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/10 03:11:52 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/10 03:11:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/10 03:11:52 [notice] 1#1: start worker processes
+2024/07/10 03:11:52 [notice] 1#1: start worker process 30
+2024/07/10 03:11:52 [notice] 1#1: start worker process 31
+2024/07/10 03:11:52 [notice] 1#1: start worker process 32
+2024/07/10 03:11:52 [notice] 1#1: start worker process 33
+2024/07/10 03:18:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/10 03:18:07 [notice] 30#30: gracefully shutting down
+2024/07/10 03:18:07 [notice] 33#33: gracefully shutting down
+2024/07/10 03:18:07 [notice] 31#31: gracefully shutting down
+2024/07/10 03:18:07 [notice] 31#31: exiting
+2024/07/10 03:18:07 [notice] 32#32: gracefully shutting down
+2024/07/10 03:18:07 [notice] 30#30: exiting
+2024/07/10 03:18:07 [notice] 33#33: exiting
+2024/07/10 03:18:07 [notice] 31#31: exit
+2024/07/10 03:18:07 [notice] 32#32: exiting
+2024/07/10 03:18:07 [notice] 30#30: exit
+2024/07/10 03:18:07 [notice] 33#33: exit
+2024/07/10 03:18:07 [notice] 32#32: exit
+2024/07/10 03:18:07 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/10 03:18:07 [notice] 1#1: worker process 31 exited with code 0
+2024/07/10 03:18:07 [notice] 1#1: worker process 32 exited with code 0
+2024/07/10 03:18:07 [notice] 1#1: worker process 33 exited with code 0
+2024/07/10 03:18:07 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 03:18:07 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/10 03:18:07 [notice] 1#1: worker process 30 exited with code 0
+2024/07/10 03:18:07 [notice] 1#1: exit
+2024/07/10 03:23:19 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/07/10 03:23:19 [notice] 1#1: using the "epoll" event method
+2024/07/10 03:23:19 [notice] 1#1: nginx/1.27.0
+2024/07/10 03:23:19 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/10 03:23:19 [notice] 1#1: OS: Linux 5.15.133.1-microsoft-standard-WSL2
+2024/07/10 03:23:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/10 03:23:19 [notice] 1#1: start worker processes
+2024/07/10 03:23:19 [notice] 1#1: start worker process 30
+2024/07/10 03:23:19 [notice] 1#1: start worker process 31
+2024/07/10 03:23:19 [notice] 1#1: start worker process 32
+2024/07/10 03:23:19 [notice] 1#1: start worker process 33
+2024/07/10 03:51:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/10 03:51:18 [notice] 30#30: gracefully shutting down
+2024/07/10 03:51:18 [notice] 31#31: gracefully shutting down
+2024/07/10 03:51:18 [notice] 32#32: gracefully shutting down
+2024/07/10 03:51:18 [notice] 32#32: exiting
+2024/07/10 03:51:18 [notice] 33#33: gracefully shutting down
+2024/07/10 03:51:18 [notice] 30#30: exiting
+2024/07/10 03:51:18 [notice] 31#31: exiting
+2024/07/10 03:51:18 [notice] 32#32: exit
+2024/07/10 03:51:18 [notice] 33#33: exiting
+2024/07/10 03:51:18 [notice] 30#30: exit
+2024/07/10 03:51:18 [notice] 31#31: exit
+2024/07/10 03:51:18 [notice] 33#33: exit
+2024/07/10 03:51:18 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/07/10 03:51:18 [notice] 1#1: worker process 30 exited with code 0
+2024/07/10 03:51:18 [notice] 1#1: worker process 32 exited with code 0
+2024/07/10 03:51:18 [notice] 1#1: worker process 33 exited with code 0
+2024/07/10 03:51:18 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/10 03:51:18 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/07/10 03:51:18 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/07/10 03:51:18 [notice] 1#1: worker process 31 exited with code 0
+2024/07/10 03:51:18 [notice] 1#1: exit
+2024/07/13 18:42:50 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:42:53 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:42:54 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:42:55 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:42:57 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:42:59 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:43:03 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:43:10 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:43:23 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:43:50 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:44:41 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:45:42 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:48:01 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:48:02 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:48:03 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:48:05 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:48:06 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:48:08 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:48:12 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:48:19 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:48:32 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)
+2024/07/13 18:48:58 [crit] 1#1: pread() "/etc/nginx/conf.d/nginx.conf" failed (21: Is a directory)

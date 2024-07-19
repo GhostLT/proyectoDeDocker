@@ -1,10 +1,3 @@
-<?php
-
-$json = array(
-    "status" => 200,
-    "result" => "success"
-);
-
-echo json_encode($json);
-
-return;
+<html>
+<h1>hola mundo</h1>
+</html>
